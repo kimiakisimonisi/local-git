@@ -8,7 +8,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
      <meta name="viewport" content="width=device-width,initial-scale=1">
-     <link rel="stylesheet" href="/stylesheets/sp.css">
+     <link rel="stylesheet" href="/stylesheets/sp.css" media="screen and (max-width:750px)">
   </head>
 
   <body>
@@ -16,11 +16,13 @@
       <div id="header">
 <%= render "shared/header" %>
         </div>
-<div  id="content">
+        <div class="clearfix">
+<div  id="content" >
     <%= yield %>
     </div>
     <div id="sidebar">
       <%= render "shared/sidebar" %>
+      </div>
       </div>
       <div id="footer">
       <%= render "shared/footer" %>

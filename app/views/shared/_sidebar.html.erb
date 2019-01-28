@@ -2,8 +2,12 @@
 
   <h2>List</h2>
 <ul>
-  <li><%= link_to "■激安コーヒーメーカー美味しい" ,"first"%></li>
-  <li><%= link_to "■面白いコーヒーメーカー","#"%></li>
+  <li><%= link_to "■激安コーヒーメーカー美味しい" ,"first",class:"side"%></li>
+  <li><%= link_to "■面白いコーヒーメーカー","#",class:"side"%></li>
     </ul>
+
+<a href="http://twitter.com/share?url=http://qiita.com/katsuma" ><%=image_tag("twitter.png",size:"40x40",class:"sns")%></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma"><%=image_tag("facebook.png",size:"40x40",class:"sns")%></a>
+<a href="http://line.me/R/msg/text/?http://qiita.com/katsuma"><%=image_tag("line.png",size:"40x40",class:"sns")%></a>
 <%= image_tag("黒.PNG",alt:"pen",size:"200x300") %>
   </div>
