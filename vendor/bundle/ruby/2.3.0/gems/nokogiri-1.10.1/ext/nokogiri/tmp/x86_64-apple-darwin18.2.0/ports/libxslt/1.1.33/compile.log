@@ -1,0 +1,7 @@
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in libxslt
+  CC       attrvt.lo
+  CC       xslt.lo
+make[2]: *** [xslt.lo] Error 1
+make[1]: *** [all-recursive] Interrupt: 2
+make: *** [all] Interrupt: 2
